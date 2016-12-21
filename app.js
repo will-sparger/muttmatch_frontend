@@ -58,7 +58,7 @@ var checkPreference = function( profile ){
 
     var request = $.ajax({
 
-      url: 'https://localhost:3000/checkprefs', //we wouldn't want to hardcode this
+      url: 'https://radiant-waters-50602.herokuapp.com/checkprefs', //we wouldn't want to hardcode this
       method: 'POST',
 
       //need to send authorization header
