@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* custom styles */
+
+nav {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+
+}
+
+.container {
+
+	vertical-align: middle;
+}
+
+nav img{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: justify;
+	height: auto;
+	width: 150px;
+	padding-top: 15px;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 15px 15px;
+}
+
+nav li button {
+	background-color: #2D547A;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-family: 'Bitter', serif;
+	font-size: 14px;
+}
+
+.hero{
+  width: 100%;
+	background-image: url("../images/homepage/homepage_hero.jpg");
+	padding: 200px 50px;
+
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.cta {
+	text-align: center;
+	background-color: white;
+	margin-top: 20px;
+	padding: 30px;
+  color: #000;
+}
+
+.cta h3 {
+
+	font-family: 'Lora', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.sign_up  {
+	background-color: #A03037;
+	margin: 30px 0;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border: none;
+	font-family: 'Bitter', serif;
+}
+
+
+.service-process {
+  background-color: #DFD3B7;
+  text-align: center;
+}
+.service-process h3 {
+  color: #000;
+  font-family: 'Bitter', serif;
+  font-size: 42px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.service-process h5 {
+  color: #A03037;
+  font-family: 'Bitter', serif;
+  font-size: 30px;
+	padding: 10px 0;
+}
+.service-process p {
+  color: #000;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.service-process a {
+	margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .service-process h3
+		{font-size: 34px;
+		}
+}
+
+@media only screen and (max-width: 768px) {
+    .service-process img
+		{padding-top: 10px;
+		}
+}
+
+
+.column img{
+  width:  50%;
+  height: 50%;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.testimonials {
+  text-align: center;
+	background-color: white;
+  color: #000;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
+.testimonial {
+	padding: 20px 0;
+}
+
+.testimonial img{
+	width:  50%;
+  height: 50%;
+	padding: 15px 0;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.testimonial p {
+	padding: 0 20px;
+}
+
+
+footer {
+	height: 50px;
+  background-color: #5F5F5F;
+  border: 1px solid #979797;
+  color: white;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer h5 {
+	padding-top: 15px;
+	font-size: 12px;
+}
