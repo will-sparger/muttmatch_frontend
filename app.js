@@ -58,7 +58,7 @@ var checkPreference = function( profile ){
 
     var request = $.ajax({
 
-      url: 'http://localhost:3000/checkprefs', //we wouldn't want to hardcode this
+      url: 'https://localhost:3000/checkprefs', //we wouldn't want to hardcode this
       method: 'POST',
 
       //need to send authorization header
