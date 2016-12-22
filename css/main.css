@@ -57,15 +57,13 @@ nav {
   width: 100%;
   height: 50px;
   background-color: white;
-
 }
 
 .container {
-
 	vertical-align: middle;
 }
 
-nav img{
+nav img {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: justify;
@@ -94,11 +92,15 @@ nav li button {
 	font-size: 14px;
 }
 
-.hero{
+.btn-donate a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.hero {
   width: 100%;
 	background-image: url("../images/homepage/homepage_hero.jpg");
 	padding: 200px 50px;
-
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -113,13 +115,12 @@ nav li button {
 }
 
 .cta h3 {
-
 	font-family: 'Lora', serif;
   font-size: 20px;
   font-style: italic;
 }
 
-.sign_up  {
+.sign_up {
 	background-color: #A03037;
 	margin: 30px 0;
 	text-decoration: none;
@@ -129,11 +130,11 @@ nav li button {
 	font-family: 'Bitter', serif;
 }
 
-
 .service-process {
   background-color: #DFD3B7;
   text-align: center;
 }
+
 .service-process h3 {
   color: #000;
   font-family: 'Bitter', serif;
@@ -141,12 +142,14 @@ nav li button {
 	font-weight: bold;
 	padding: 20px 0;
 }
+
 .service-process h5 {
   color: #A03037;
   font-family: 'Bitter', serif;
   font-size: 30px;
 	padding: 10px 0;
 }
+
 .service-process p {
   color: #000;
   font-family: 'Lora', serif;
@@ -170,8 +173,7 @@ nav li button {
 		}
 }
 
-
-.column img{
+.column img {
   width:  50%;
   height: 50%;
   background-position: 50% 50%;
@@ -189,17 +191,37 @@ nav li button {
   font-size: 16px;
 }
 
+.stories h3 {
+  color: #000;
+  font-family: 'Bitter', serif;
+  font-size: 34px;
+	font-weight: bold;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 769px) {
+    .stories {
+			display: none;
+		}
+}
+
+@media only screen and (max-width: 768px) {
+    .stories {
+			display: inline-block;
+		}
+}
+
 .testimonial {
 	padding: 20px 0;
 }
 
-.testimonial img{
+.testimonial img {
 	width:  50%;
   height: 50%;
-	padding: 15px 0;
+	padding-bottom: 15px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
-
   border-radius: 50%;
   display: inline-block;
 }
@@ -208,6 +230,15 @@ nav li button {
 	padding: 0 20px;
 }
 
+.btn-logout {
+	background-color: #2D547A;
+	text-decoration: none;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-family: 'Bitter', serif;
+	font-size: 14px;
+}
 
 footer {
 	height: 50px;

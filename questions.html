@@ -12,73 +12,83 @@
       types, allergies, and what kind of pet you’re looking for.</p>
         </br></br>
 
-      <div class="container">
-        <div class="boxes">
+  <div class="container">
+      <div class="boxes">
+        <div class="col-xs-8 col-xl-4">
+        </br><p3>Residence Type?</p3>
+          <br>
           <div class="col-xs-8 col-xl-4">
-          <p2>Any allergies?</p2>
-        <br>
-          <label><input id='hypoallergenic' type="checkbox" name="restrictions">Allergic to dogs</label>
+            <input type="checkbox" value="House">House
+          </div>
+          <div class="col-xs-8 col-xl-4">
+            <input type="checkbox" value="Apartment">Apartment (no weight restriction)
+          </div>
+          <div class="col-xs-8 col-xl-4">
+            <input type="checkbox" value="Apartment">Apartment (weight restriction)
+          </div>
+        </div>
+
+      <br><br>
+
+
+      <div class="checks">
+        <div class="col-xs-8 col-xl-4" style="padding-top: 2em;">
+        <p3>Who lives with you?</p3>
+          <br>
+        <input type="checkbox" value="I have children">I have children
         </div>
         <div class="col-xs-8 col-xl-4">
-          <label><input type="checkbox" name="restrictions">Allergic to cats</label>
+          <input type="checkbox" value="I have a dog">I have a dog
+        </div>
+        <div class="col-xs-8 col-xl-4">
+          <input type="checkbox" value="I have a cat">I have a cat
         </div>
       </div>
 
-      <div class="boxes">
-        <div class="col-xs-8 col-xl-4">
-        <p2>Who lives with you?</p2>
-          <br>
-        <label><input type="checkbox" name="restrictions">I have children</label>
+
+        <div class="allergies">
+          <div class="col-xs-8 col-xl-4" style="padding-top: 2em;">
+          <p3>Any allergies?</p3>
+        <br>
+
+            <input type="checkbox" value="Allergic to dogs">
+            Allergic to dogs
+
         </div>
         <div class="col-xs-8 col-xl-4">
-          <label><input type="checkbox" name="restrictions">I have a dog</label>
-        </div>
-        <div class="col-xs-8 col-xl-4">
-          <label><input type="checkbox" name="restrictions">I have a cat</label>
+          <input type="checkbox" value="Allergic to cats">Allergic to cats
         </div>
       </div>
-      <div class="boxes">
-        <div class="col-xs-12">
-        </br><p2>Residence Type?</p2>
-          <br>
-          <div class="col-xs-4">
-            <label><input type="radio" name="residence">House</label>
-          </div>
-          <div class="col-xs-4">
-            <label><input type="radio" name="residence">Apartment (no weight restriction)</label>
-          </div>
-          <div class="col-xs-4">
-            <label><input type="radio" name="residence">Apartment (weight restriction)</label>
-          </div>
-        </div>
+
       </div>
     </section>
 
-  <section class='create-account'>
+  <section class='create-accounts'>
     <h4>Your Activity</h4>
         </br>
       <p>Tell us how you like to spend your time (select all that apply)</p>
         </br>
-      <p>I like to...</p></br>
+        <div class="activity">
+          <div class="col-xs-8 col-xl-4">
+          <p3>I like to...</p3></br>
+        </div>
+      </div>
 
     <div class="container">
       <div class="boxes">
         <div class="col-xs-8 col-xl-4">
-    <label><input type="checkbox" name="activity">Sleep all the time</label>
-    </div>
-    <div class="col-xs-8 col-xl-4">
-      <label><input type="checkbox" name="activity">Snuggle on the couch</label>
-    </div>
-    <div class="col-xs-8 col-xl-4">
-      <label><input type="checkbox" name="activity">Play outside 24/7</label>
-    </div>
-    <div class="col-xs-8 col-xl-4">
-      <label><input type="checkbox" name="activity">Go running/jogging/swimming</label>
-    </div>
-    <div class="col-xs-8 col-xl-4">
-      <label><input type="checkbox" name="activity">I have a cat</label>
-    </div>
-    </div>
+          <input type="checkbox" value="Sleep all the time">Sleep all the time
+          </div>
+          <div class="col-xs-8 col-xl-4">
+            <input type="checkbox" value="Snuggle on the couch">Snuggle on the couch
+          </div>
+          <div class="col-xs-8 col-xl-4">
+            <input type="checkbox" value="Play outside 24/7">Play outside 24/7
+          </div>
+          <div class="col-xs-8 col-xl-4">
+            <input type="checkbox" value="Go running/jogging/swimming">Go running/jogging/swimming
+        </div>
+      </div>
     </div>
 
     <div class="container">
@@ -86,23 +96,22 @@
         <div class="col-xs-8 col-xl-4">
           <br>
     <p3>I am looking for a (select all that apply)</p3></br>
-    <label><input type="checkbox" name="restrictions">Dog</label>
+    <input type="checkbox" value="Dog">Dog
     </div>
     <div class="col-xs-8 col-xl-4">
-      <label><input type="checkbox" name="restrictions">Cat</label>
+      <input type="checkbox" value="Cat">Cat
           </div>
       </div>
     </div>
 
-    <section class="buttons">
-    <div class="container">
-    <div class="row">
+  <section class="container">
+    <div class="boxes">
+      <div class="row">
+        <div class="col-xs-6 col-xl-4">
+          <a href="#" class="generate_profile btn btn-primary btn-lg active" role="button" aria-pressed="true">See Results</a>
 
-    <div class="col-xs-6 col-xl-4">
-          <a href="question_two.html" class="sign_up btn btn-primary btn-lg active" role="button" aria-pressed="true">See Results</a>
+
         </div>
       </div>
     </div>
   </section>
-
-</div>

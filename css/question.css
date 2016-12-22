@@ -83,14 +83,14 @@ nav img {
   font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 120px;
 }
 
 .create h3 {
 	font-family: 'Lora-Italic', serif;
 	font-size: 20px;
 	padding-bottom: 30px;
-	margin: 0 20px;
+	margin: 0 120px;
   font-style: italic;
 }
 
@@ -103,6 +103,7 @@ nav img {
   font-size: 40px;
   color: #000;
   padding-left: 110px;
+	margin-left: 12px;
 }
 
 .create-account p {
@@ -111,13 +112,11 @@ nav img {
   color: #000;
   padding-left: 110px;
   padding-right: 110px;
+	margin-left: 12px;
 }
 
-.create-account p3 {
-  font-family: 'Lora', serif;
-  font-size: 20px;
-  color: #000;
-  padding-right: 110px;
+.container {
+	margin: 20px;
 }
 
 .boxes {
@@ -125,12 +124,54 @@ nav img {
   padding-bottom: 120px;
 }
 
-.boxes p2 {
+.boxes p3 {
   font-size: 20px;
+	margin-left: 50px;
+}
+
+.checks p3 {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.allergies p3 {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.activity p3 {
+	font-size: 20px;
+	margin-left: 110px;
+}
+
+.create-accounts {
+  margin-top: 50px;
+}
+
+.create-accounts h4 {
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+  color: #000;
+  padding-left: 110px;
+	margin-left: 12px;
+}
+
+.create-accounts p {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  color: #000;
+  padding-left: 110px;
+  padding-right: 110px;
+	margin-left: 12px;
+	margin-bottom: 34px;
+}
+
+input[type=radio] {
+	margin: 20px 20px 10px;
 }
 
 input[type=checkbox] {
-  margin: 20px 0 0;
+  margin: 20px 20px 10px;
 }
 
 .pet {
@@ -140,17 +181,4 @@ input[type=checkbox] {
 
 .pet p2 {
   margin-top: 40px;
-
-}
-
-.sign_up {
-  background-color: #A03037;
-  margin: 20px 0;
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  border: none;
-  font-family: 'Bitter', serif;
-  margin-bottom: 70px;
-  margin-left: 40px;
 }

@@ -83,14 +83,15 @@ nav img {
   font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 120px;
 }
 
 .causes h3 {
 	font-family: 'Lora-Italic', serif;
 	font-size: 20px;
 	padding-bottom: 30px;
-	margin: 0 20px;
+	margin: 0 120px;
+	font-style: italic;
 }
 
 .service-centers {
@@ -103,6 +104,7 @@ nav img {
   font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	text-align: center;
 }
 
 .service-centers p {
@@ -111,6 +113,7 @@ nav img {
   font-size: 17px;
   font-style: italic;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .column img {
@@ -120,6 +123,7 @@ nav img {
   background-repeat:   no-repeat;
   background-size:     cover;
   display: inline-block;
+	margin-left: 24px;
 }
 
 .maps {
@@ -152,30 +156,32 @@ nav img {
   font-size: 60px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 120px;
 }
 
 .donate h3 {
 	font-family: 'Lora-Italic', serif;
 	font-size: 20px;
 	padding-bottom: 30px;
-	margin: 0 20px;
+	margin: 0 120px;
+	font-style: italic;
 }
 
 
 .payment {
-	color: #000;
-  font-family: 'Bitter-Bold', serif;
-  font-size: 20px;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	text-align: center;
 }
 
-.payment h4, h3 {
-font-family: 'Lora', serif;
-font-size: 20px;
-font-style: italic;
+
+
+.payment input {
+	font-family: 'Bitter', serif;
+	margin: 5px 0;
+	border: 0;
+  outline: 0;
+  border-bottom: 2px solid #A03037;
 }
 
 .pay {
