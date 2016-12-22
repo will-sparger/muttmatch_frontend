@@ -47,7 +47,7 @@ $(document).ready(function() {
 
   var loadQuiz = function(){
     console.log('load Quiz');
-    $('#result').load('questions.html #main');
+    $('#result').load('/muttmatch_frontend/questions.html #main');
   };
 
   var loadProfile = function(){
