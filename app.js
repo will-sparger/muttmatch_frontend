@@ -47,7 +47,7 @@ $(document).ready(function() {
 
   var loadQuiz = function(){
     console.log('load Quiz');
-    $('#result').load('/muttmatch_frontend/questions.html #main');
+    $('#result').load('https://will-sparger.github.io/muttmatch_frontend/questions.html #main');
   };
 
   var loadProfile = function(){
