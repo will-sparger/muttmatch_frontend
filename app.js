@@ -47,7 +47,7 @@ $(document).ready(function() {
 
 function loadQuiz(){
   console.log('loadQuiz');
-  $('#result').load('/questions.html #main');
+  $('#result').load('/muttmatch_frontend/questions.html #main');
 };
 
 //Show dogs
