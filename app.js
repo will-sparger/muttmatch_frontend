@@ -150,7 +150,7 @@ $(document).ready(function() {
 
     console.log('Final profile: ', Profile);
     var request = $.ajax({
-      url: 'https://radiant-waters-50602.herokuapp.com/userpreference',
+      url: 'https://radiant-waters-50602.herokuapp.com/api/userpreference',
       method: 'POST',
       // need to send authorization header
       headers: {
