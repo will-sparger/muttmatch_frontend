@@ -52,7 +52,7 @@ $(document).ready(function() {
 
   var loadProfile = function(){
     console.log('load Profile');
-    $('#result').load('/matches.html');
+    $('#result').load('https://will-sparger.github.io/muttmatch_frontend/matches.html');
   };
 
   var checkPreference = function( profile ){
@@ -178,7 +178,7 @@ $(document).ready(function() {
 
     var request = $.ajax({
       // $('#matches-list').empty(); //ensure contents of html are cleared
-      url: 'https://radiant-waters-50602.herokuapp.com/findmatch',
+      url: 'https://radiant-waters-50602.herokuapp.com/api/findmatch',
       method: 'POST',
       // need to send authorization header for security
       headers: {
